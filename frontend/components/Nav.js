@@ -2,7 +2,7 @@
  * @Author: Nate
  * @Date:   2019-01-11 14:12:12
  * @Last Modified by:   Nate
- * @Last Modified time: 2019-01-12 12:18:35
+ * @Last Modified time: 2019-01-13 14:38:43
  */
 import Link from "next/link";
 import NavStyles from "./styles/NavStyles";
@@ -10,7 +10,7 @@ import NavStyles from "./styles/NavStyles";
 const Nav = () => (
   <NavStyles>
     <Link href="/items">
-      <a>Items</a>
+      <a>Shop</a>
     </Link>
     <Link href="/sell">
       <a>Sell</a>

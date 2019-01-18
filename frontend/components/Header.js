@@ -2,7 +2,7 @@
  * @Author: Nate
  * @Date:   2019-01-11 14:11:03
  * @Last Modified by:   Nate
- * @Last Modified time: 2019-01-12 12:18:34
+ * @Last Modified time: 2019-01-13 15:09:17
  */
 import Link from "next/link";
 import styled from "styled-components";
@@ -65,7 +65,7 @@ const Header = () => (
     <div className="bar">
       <Logo>
         <Link href="/">
-          <a>Sick Fits</a>
+          <a>Sick Fitsssss</a>
         </Link>
       </Logo>
       <Nav />

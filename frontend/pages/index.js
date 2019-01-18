@@ -2,13 +2,14 @@
  * @Author: Nate
  * @Date:   2019-01-11 14:37:49
  * @Last Modified by:   Nate
- * @Last Modified time: 2019-01-11 14:39:43
+ * @Last Modified time: 2019-01-18 13:02:58
  */
-import Link from "next/link";
+
+import Items from "../components/Items";
 
 const Home = props => (
   <div>
-    <p>Hey!</p>
+    <Items page={parseFloat(props.query.page) || 1} />
   </div>
 );
 

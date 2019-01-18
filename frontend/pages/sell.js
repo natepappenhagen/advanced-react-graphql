@@ -2,13 +2,13 @@
  * @Author: Nate
  * @Date:   2019-01-11 14:38:54
  * @Last Modified by:   Nate
- * @Last Modified time: 2019-01-11 14:39:43
+ * @Last Modified time: 2019-01-14 12:01:11
  */
-import Link from "next/link";
+import CreateItem from "../components/CreateItem";
 
 const Sell = props => (
   <div>
-    <p>Sell!</p>
+    <CreateItem />
   </div>
 );
 
